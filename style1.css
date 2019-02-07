@@ -1,16 +1,16 @@
 
+/*  Style in all pages */
 body {
-	padding-top: 2.5cm;
+	padding-top: 120px;
 	text-align: center;
 	background-color: aquamarine;
 	font-family: 'Nunito', sans-serif;
+	font-family: 'Amatic SC', cursive;
 	color: #1a1a1a;
 }
 
-h1 {
-	color: blue;
-}
 
+/*  Styling in main page "index.html"  */
 #my_pic {
 	width: 18%;
 	border-radius: 50%;
@@ -18,16 +18,71 @@ h1 {
 
 #name {
 	color: black;
-	font-size: 35pt;
+	font-size: 45pt;
 }
 
-#bio_main {
+p {
 	color: orangered;
-	font-size: 25pt;
+	font-size: 15pt;
 	font-family: 'Amatic SC', cursive;
+	font-family: 'Nunito', sans-serif;
+}
+#bio_main{font-size: 18pt;}
+
+
+
+
+
+
+
+
+/*  Styling in hobbies page   */
+.hobby_div {
+	padding-left: 65px;
+	text-align: left;
+	transition: margin-left .5s; /* If you want a transition effect */
 }
 
+.left{float: left; width: 65%;}
+.left, .right{padding-top: 0px;}
 
+.hobby_head {
+	font-size: 30pt;
+	margin: 0;
+}
+
+.hobby_para {
+	text-indent: 50px;
+	margin: 0;
+}
+
+.hobby_pic {
+	width: 25%;
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hobby_favs {
+	color: #1a1a1a;
+}
+
+.hobby_favs a {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+.hobby_favs a:hover {color: orangered;}
+
+
+
+
+
+
+
+
+
+/*  Sidebar styling  */
 
 .sidebar {
   height: 100%; /* 100% Full-height */
@@ -79,7 +134,6 @@ h1 {
 	color: #818181;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
 	position: absolute;
 	top: 0;
